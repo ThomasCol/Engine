@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\Engine">
+      <UniqueIdentifier>{ab6c1c7b-3c85-49f0-b0b3-5981c06cbeb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Core">
+      <UniqueIdentifier>{b35f71fb-4253-4a97-818d-d13e1e87ee08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Core\DataStructure">
+      <UniqueIdentifier>{db0432d3-d021-49be-8518-65abe6ed7e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Core\Debug">
+      <UniqueIdentifier>{f45631fa-2940-4d22-95b2-0e8d32797592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Core\Maths">
+      <UniqueIdentifier>{eeec15e6-86e7-43c3-a1f0-f3fe2ad0c0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Core\Maths\Geometry">
+      <UniqueIdentifier>{67456899-66c2-4397-8236-478eebf95ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\LowRenderer">
+      <UniqueIdentifier>{91370d34-962c-4b59-a338-40f6ce8bd124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\LowRenderer\Lights">
+      <UniqueIdentifier>{b2d18027-c6c4-4ab6-a428-233aa2a2a058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Physics">
+      <UniqueIdentifier>{4be92dd0-e525-4108-a535-cd84227f92f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Physics\Collision">
+      <UniqueIdentifier>{82409128-4263-433a-bb94-c3dbcc26f444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Resources">
+      <UniqueIdentifier>{f4e4e48b-f6c0-4a9c-9c46-a729fb3de7f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game">
+      <UniqueIdentifier>{cda6c662-1171-4912-8c53-8efe379085c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="include\Engine">
+      <UniqueIdentifier>{23d51cd3-f588-4bbe-8649-82acfd1ef023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Core">
+      <UniqueIdentifier>{052f3177-ef3e-44f8-9c74-e6d53aab26c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Core\DataStructure">
+      <UniqueIdentifier>{409c738e-76ab-4693-9223-171bf8668403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Core\Debug">
+      <UniqueIdentifier>{cc81f172-bca9-4043-9efb-00aeedbe32c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Core\Maths">
+      <UniqueIdentifier>{7dddb2bb-2d89-4db3-858c-5a1dd6224bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Core\Maths\Geometry">
+      <UniqueIdentifier>{d5d4f6ea-4706-419b-aafd-6476314a030a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\LowRenderer">
+      <UniqueIdentifier>{1384622b-fd65-4718-bafb-2207326b9807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\LowRenderer\Lights">
+      <UniqueIdentifier>{0fb3caea-2a81-4c8e-804c-c4a1c1d89fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Physics">
+      <UniqueIdentifier>{a2247e3b-e256-42bd-8265-6e8ad4119e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Physics\Collision">
+      <UniqueIdentifier>{9cc05ff3-6baa-4090-b4df-d5514c87987a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\Resources">
+      <UniqueIdentifier>{eeb96266-4784-4ff8-ba0d-65fe6d4f6531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Game">
+      <UniqueIdentifier>{ea2ebca1-68e1-475f-a18d-143a319a9c5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include\Engine\AI">
+      <UniqueIdentifier>{b8a49350-a4d7-4287-b64a-e87768ac7a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\AI">
+      <UniqueIdentifier>{277a9a36-e81d-47fd-87c9-002c4f1e4833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\UI">
+      <UniqueIdentifier>{d09eb433-b622-47e2-8ae9-e3f9b16ac5c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Engine\UI">
+      <UniqueIdentifier>{4234a72a-f9d8-406f-ad92-69364d8c6cf9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Core\DataStructure\Behaviour.h">
+      <Filter>include\Engine\Core\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\DataStructure\Component.h">
+      <Filter>include\Engine\Core\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\DataStructure\GameObject.hpp">
+      <Filter>include\Engine\Core\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\DataStructure\Triplet.h">
+      <Filter>include\Engine\Core\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\DataStructure\Vertex.h">
+      <Filter>include\Engine\Core\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Debugs\Assertion.h">
+      <Filter>include\Engine\Core\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Debugs\Log.h">
+      <Filter>include\Engine\Core\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Debugs\Debug.h">
+      <Filter>include\Engine\Core\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Maths\Geometry\Box.h">
+      <Filter>include\Engine\Core\Maths\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Event.hpp">
+      <Filter>include\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Maths\Mat.h">
+      <Filter>include\Engine\Core\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Maths\Mat4.h">
+      <Filter>include\Engine\Core\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Maths\Maths.hpp">
+      <Filter>include\Engine\Core\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Maths\Geometry\OrientedBox.h">
+      <Filter>include\Engine\Core\Maths\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Maths\Geometry\Cylinder.h">
+      <Filter>include\Engine\Core\Maths\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Maths\Geometry\Plane.h">
+      <Filter>include\Engine\Core\Maths\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Maths\Geometry\Quad.h">
+      <Filter>include\Engine\Core\Maths\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Maths\Ref3.h">
+      <Filter>include\Engine\Core\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Maths\Geometry\Segment.h">
+      <Filter>include\Engine\Core\Maths\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Maths\Geometry\Sphere.h">
+      <Filter>include\Engine\Core\Maths\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Maths\Vec2.h">
+      <Filter>include\Engine\Core\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Maths\Vec3.h">
+      <Filter>include\Engine\Core\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Maths\Vec4.h">
+      <Filter>include\Engine\Core\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LowRenderer\Camera.h">
+      <Filter>include\Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LowRenderer\Mesh.h">
+      <Filter>include\Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LowRenderer\TextRenderer.h">
+      <Filter>include\Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LowRenderer\Lights\Light.h">
+      <Filter>include\Engine\LowRenderer\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LowRenderer\Lights\PointLight.h">
+      <Filter>include\Engine\LowRenderer\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LowRenderer\Lights\DirectionalLight.h">
+      <Filter>include\Engine\LowRenderer\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LowRenderer\Lights\SpotLight.h">
+      <Filter>include\Engine\LowRenderer\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Physics\Rigidbody.h">
+      <Filter>include\Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Physics\Transform.h">
+      <Filter>include\Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Physics\Collision\BoxCollider.h">
+      <Filter>include\Engine\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Physics\Collision\Collider.h">
+      <Filter>include\Engine\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Physics\Collision\CollisionManager.h">
+      <Filter>include\Engine\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Physics\Collision\Hit.h">
+      <Filter>include\Engine\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Physics\Collision\SphereCollider.h">
+      <Filter>include\Engine\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resources\Character.h">
+      <Filter>include\Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resources\Model.h">
+      <Filter>include\Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resources\ResourcesManager.h">
+      <Filter>include\Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resources\Scene.h">
+      <Filter>include\Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resources\Shader.h">
+      <Filter>include\Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resources\Texture.h">
+      <Filter>include\Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sound.h">
+      <Filter>include\Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Define.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sprites.h">
+      <Filter>include\Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InputManager.h">
+      <Filter>include\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation.h">
+      <Filter>include\Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RenderWindow.h">
+      <Filter>include\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HUD.h">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Level.h">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlayerHandler.h">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WeaponHandler.h">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NavMesh.h">
+      <Filter>include\Engine\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NavMeshNode.h">
+      <Filter>include\Engine\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Path.h">
+      <Filter>include\Engine\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathFinder.h">
+      <Filter>include\Engine\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Enemy.h">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\ButtonBase.h">
+      <Filter>include\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Canvas.hpp">
+      <Filter>include\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\TemplateButton.hpp">
+      <Filter>include\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Text.h">
+      <Filter>include\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\UIComponent.h">
+      <Filter>include\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\UIObject.h">
+      <Filter>include\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Menu.h">
+      <Filter>include\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\UISprite.h">
+      <Filter>include\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Physics\Collision\RaycastHit.h">
+      <Filter>include\Engine\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\DataStructure\SceneManager.h">
+      <Filter>include\Engine\Core\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EndLevel.h">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Music.h">
+      <Filter>include\Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameManager.h">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Item.h">
+      <Filter>include\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Simulation.h">
+      <Filter>include\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DataStructure\Behaviour.cpp">
+      <Filter>src\Engine\Core\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DataStructure\Component.cpp">
+      <Filter>src\Engine\Core\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DataStructure\GameObject.cpp">
+      <Filter>src\Engine\Core\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DataStructure\Triplet.cpp">
+      <Filter>src\Engine\Core\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DataStructure\Vertex.cpp">
+      <Filter>src\Engine\Core\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Debugs\Assertion.cpp">
+      <Filter>src\Engine\Core\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Debugs\Log.cpp">
+      <Filter>src\Engine\Core\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Maths\Geometry\Box.cpp">
+      <Filter>src\Engine\Core\Maths\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Maths\Geometry\Cylinder.cpp">
+      <Filter>src\Engine\Core\Maths\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Maths\Geometry\OrientedBox.cpp">
+      <Filter>src\Engine\Core\Maths\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Maths\Geometry\Plane.cpp">
+      <Filter>src\Engine\Core\Maths\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Maths\Geometry\Quad.cpp">
+      <Filter>src\Engine\Core\Maths\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Maths\Geometry\Segment.cpp">
+      <Filter>src\Engine\Core\Maths\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Maths\Geometry\Sphere.cpp">
+      <Filter>src\Engine\Core\Maths\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Maths\Mat.cpp">
+      <Filter>src\Engine\Core\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Maths\Mat4.cpp">
+      <Filter>src\Engine\Core\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Maths\Maths.cpp">
+      <Filter>src\Engine\Core\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Maths\Ref3.cpp">
+      <Filter>src\Engine\Core\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Maths\Vec2.cpp">
+      <Filter>src\Engine\Core\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Maths\Vec4.cpp">
+      <Filter>src\Engine\Core\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Maths\Vec3.cpp">
+      <Filter>src\Engine\Core\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LowRenderer\Camera.cpp">
+      <Filter>src\Engine\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LowRenderer\Mesh.cpp">
+      <Filter>src\Engine\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LowRenderer\TextRenderer.cpp">
+      <Filter>src\Engine\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animation.cpp">
+      <Filter>src\Engine\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputManager.cpp">
+      <Filter>src\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LowRenderer\Lights\Light.cpp">
+      <Filter>src\Engine\LowRenderer\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LowRenderer\Lights\DirectionalLight.cpp">
+      <Filter>src\Engine\LowRenderer\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LowRenderer\Lights\PointLight.cpp">
+      <Filter>src\Engine\LowRenderer\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LowRenderer\Lights\SpotLight.cpp">
+      <Filter>src\Engine\LowRenderer\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resources\Character.cpp">
+      <Filter>src\Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resources\ResourcesManager.cpp">
+      <Filter>src\Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resources\Scene.cpp">
+      <Filter>src\Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resources\Shader.cpp">
+      <Filter>src\Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resources\Texture.cpp">
+      <Filter>src\Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sprites.cpp">
+      <Filter>src\Engine\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resources\Model.cpp">
+      <Filter>src\Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sound.cpp">
+      <Filter>src\Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\Transform.cpp">
+      <Filter>src\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\Rigidbody.cpp">
+      <Filter>src\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\Collision\BoxCollider.cpp">
+      <Filter>src\Engine\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\Collision\Collider.cpp">
+      <Filter>src\Engine\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\Collision\CollisionManager.cpp">
+      <Filter>src\Engine\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\Collision\Hit.cpp">
+      <Filter>src\Engine\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\Collision\SphereCollider.cpp">
+      <Filter>src\Engine\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderWindow.cpp">
+      <Filter>src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HUD.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Level.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayerHandler.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WeaponHandler.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EndLevel.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Music.cpp">
+      <Filter>src\Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NavMesh.cpp">
+      <Filter>src\Engine\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NavMeshNode.cpp">
+      <Filter>src\Engine\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Path.cpp">
+      <Filter>src\Engine\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PathFinder.cpp">
+      <Filter>src\Engine\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Enemy.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\ButtonBase.cpp">
+      <Filter>src\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Canvas.cpp">
+      <Filter>src\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Menu.cpp">
+      <Filter>src\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Text.cpp">
+      <Filter>src\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\UIComponent.cpp">
+      <Filter>src\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\UIObject.cpp">
+      <Filter>src\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\UISprite.cpp">
+      <Filter>src\Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\Collision\RaycastHit.cpp">
+      <Filter>src\Engine\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\DataStructure\SceneManager.cpp">
+      <Filter>src\Engine\Core\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameManager.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Item.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Simulation.cpp">
+      <Filter>src\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

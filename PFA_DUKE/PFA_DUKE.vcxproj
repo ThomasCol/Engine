@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Animation.h" />
+    <ClInclude Include="include\Core\DataStructure\Behaviour.h" />
+    <ClInclude Include="include\Core\DataStructure\Component.h" />
+    <ClInclude Include="include\Core\DataStructure\GameObject.hpp" />
+    <ClInclude Include="include\Core\DataStructure\SceneManager.h" />
+    <ClInclude Include="include\Core\DataStructure\Triplet.h" />
+    <ClInclude Include="include\Core\DataStructure\Vertex.h" />
+    <ClInclude Include="include\Core\Debugs\Assertion.h" />
+    <ClInclude Include="include\Core\Debugs\Debug.h" />
+    <ClInclude Include="include\Core\Debugs\Log.h" />
+    <ClInclude Include="include\Core\Event.hpp" />
+    <ClInclude Include="include\Core\Maths\Geometry\Box.h" />
+    <ClInclude Include="include\Core\Maths\Geometry\Cylinder.h" />
+    <ClInclude Include="include\Core\Maths\Geometry\OrientedBox.h" />
+    <ClInclude Include="include\Core\Maths\Geometry\Plane.h" />
+    <ClInclude Include="include\Core\Maths\Geometry\Quad.h" />
+    <ClInclude Include="include\Core\Maths\Geometry\Segment.h" />
+    <ClInclude Include="include\Core\Maths\Geometry\Sphere.h" />
+    <ClInclude Include="include\Core\Maths\Mat.h" />
+    <ClInclude Include="include\Core\Maths\Mat4.h" />
+    <ClInclude Include="include\Core\Maths\Maths.hpp" />
+    <ClInclude Include="include\Core\Maths\Ref3.h" />
+    <ClInclude Include="include\Core\Maths\Vec2.h" />
+    <ClInclude Include="include\Core\Maths\Vec3.h" />
+    <ClInclude Include="include\Core\Maths\Vec4.h" />
+    <ClInclude Include="include\Enemy.h" />
+    <ClInclude Include="include\EndLevel.h" />
+    <ClInclude Include="include\GameManager.h" />
+    <ClInclude Include="include\HUD.h" />
+    <ClInclude Include="include\InputManager.h" />
+    <ClInclude Include="include\Item.h" />
+    <ClInclude Include="include\Level.h" />
+    <ClInclude Include="include\LowRenderer\Camera.h" />
+    <ClInclude Include="include\LowRenderer\Lights\DirectionalLight.h" />
+    <ClInclude Include="include\LowRenderer\Lights\Light.h" />
+    <ClInclude Include="include\LowRenderer\Lights\PointLight.h" />
+    <ClInclude Include="include\LowRenderer\Lights\SpotLight.h" />
+    <ClInclude Include="include\LowRenderer\Mesh.h" />
+    <ClInclude Include="include\LowRenderer\TextRenderer.h" />
+    <ClInclude Include="include\NavMesh.h" />
+    <ClInclude Include="include\NavMeshNode.h" />
+    <ClInclude Include="include\Path.h" />
+    <ClInclude Include="include\PathFinder.h" />
+    <ClInclude Include="include\Music.h" />
+    <ClInclude Include="include\Physics\Collision\BoxCollider.h" />
+    <ClInclude Include="include\Physics\Collision\Collider.h" />
+    <ClInclude Include="include\Physics\Collision\CollisionManager.h" />
+    <ClInclude Include="include\Physics\Collision\Hit.h" />
+    <ClInclude Include="include\Physics\Collision\RaycastHit.h" />
+    <ClInclude Include="include\Physics\Collision\SphereCollider.h" />
+    <ClInclude Include="include\Physics\Rigidbody.h" />
+    <ClInclude Include="include\Physics\Transform.h" />
+    <ClInclude Include="include\PlayerHandler.h" />
+    <ClInclude Include="include\RenderWindow.h" />
+    <ClInclude Include="include\Resources\Character.h" />
+    <ClInclude Include="include\Resources\Model.h" />
+    <ClInclude Include="include\Resources\ResourcesManager.h" />
+    <ClInclude Include="include\Resources\Scene.h" />
+    <ClInclude Include="include\Resources\Shader.h" />
+    <ClInclude Include="include\Resources\Texture.h" />
+    <ClInclude Include="include\Simulation.h" />
+    <ClInclude Include="include\Sound.h" />
+    <ClInclude Include="include\Define.h" />
+    <ClInclude Include="include\Sprites.h" />
+    <ClInclude Include="include\UI\ButtonBase.h" />
+    <ClInclude Include="include\UI\Canvas.hpp" />
+    <ClInclude Include="include\UI\Menu.h" />
+    <ClInclude Include="include\UI\TemplateButton.hpp" />
+    <ClInclude Include="include\UI\Text.h" />
+    <ClInclude Include="include\UI\UIComponent.h" />
+    <ClInclude Include="include\UI\UIObject.h" />
+    <ClInclude Include="include\UI\UISprite.h" />
+    <ClInclude Include="include\WeaponHandler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Animation.cpp" />
+    <ClCompile Include="src\Core\DataStructure\Behaviour.cpp" />
+    <ClCompile Include="src\Core\DataStructure\Component.cpp" />
+    <ClCompile Include="src\Core\DataStructure\GameObject.cpp" />
+    <ClCompile Include="src\Core\DataStructure\SceneManager.cpp" />
+    <ClCompile Include="src\Core\DataStructure\Triplet.cpp" />
+    <ClCompile Include="src\Core\DataStructure\Vertex.cpp" />
+    <ClCompile Include="src\Core\Debugs\Assertion.cpp" />
+    <ClCompile Include="src\Core\Debugs\Log.cpp" />
+    <ClCompile Include="src\Core\Maths\Geometry\Box.cpp" />
+    <ClCompile Include="src\Core\Maths\Geometry\Cylinder.cpp" />
+    <ClCompile Include="src\Core\Maths\Geometry\OrientedBox.cpp" />
+    <ClCompile Include="src\Core\Maths\Geometry\Plane.cpp" />
+    <ClCompile Include="src\Core\Maths\Geometry\Quad.cpp" />
+    <ClCompile Include="src\Core\Maths\Geometry\Segment.cpp" />
+    <ClCompile Include="src\Core\Maths\Geometry\Sphere.cpp" />
+    <ClCompile Include="src\Core\Maths\Mat.cpp" />
+    <ClCompile Include="src\Core\Maths\Mat4.cpp" />
+    <ClCompile Include="src\Core\Maths\Maths.cpp" />
+    <ClCompile Include="src\Core\Maths\Ref3.cpp" />
+    <ClCompile Include="src\Core\Maths\Vec2.cpp" />
+    <ClCompile Include="src\Core\Maths\Vec3.cpp" />
+    <ClCompile Include="src\Core\Maths\Vec4.cpp" />
+    <ClCompile Include="src\Enemy.cpp" />
+    <ClCompile Include="src\EndLevel.cpp" />
+    <ClCompile Include="src\GameManager.cpp" />
+    <ClCompile Include="src\HUD.cpp" />
+    <ClCompile Include="src\InputManager.cpp" />
+    <ClCompile Include="src\Item.cpp" />
+    <ClCompile Include="src\Level.cpp" />
+    <ClCompile Include="src\LowRenderer\Camera.cpp" />
+    <ClCompile Include="src\LowRenderer\Lights\DirectionalLight.cpp" />
+    <ClCompile Include="src\LowRenderer\Lights\Light.cpp" />
+    <ClCompile Include="src\LowRenderer\Lights\PointLight.cpp" />
+    <ClCompile Include="src\LowRenderer\Lights\SpotLight.cpp" />
+    <ClCompile Include="src\LowRenderer\Mesh.cpp" />
+    <ClCompile Include="src\LowRenderer\TextRenderer.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\NavMesh.cpp" />
+    <ClCompile Include="src\NavMeshNode.cpp" />
+    <ClCompile Include="src\Path.cpp" />
+    <ClCompile Include="src\PathFinder.cpp" />
+    <ClCompile Include="src\Music.cpp" />
+    <ClCompile Include="src\Physics\Collision\BoxCollider.cpp" />
+    <ClCompile Include="src\Physics\Collision\Collider.cpp" />
+    <ClCompile Include="src\Physics\Collision\CollisionManager.cpp" />
+    <ClCompile Include="src\Physics\Collision\Hit.cpp" />
+    <ClCompile Include="src\Physics\Collision\RaycastHit.cpp" />
+    <ClCompile Include="src\Physics\Collision\SphereCollider.cpp" />
+    <ClCompile Include="src\Physics\Rigidbody.cpp" />
+    <ClCompile Include="src\Physics\Transform.cpp" />
+    <ClCompile Include="src\PlayerHandler.cpp" />
+    <ClCompile Include="src\RenderWindow.cpp" />
+    <ClCompile Include="src\Resources\Character.cpp" />
+    <ClCompile Include="src\Resources\Model.cpp" />
+    <ClCompile Include="src\Resources\ResourcesManager.cpp" />
+    <ClCompile Include="src\Resources\Scene.cpp" />
+    <ClCompile Include="src\Resources\Shader.cpp" />
+    <ClCompile Include="src\Resources\Texture.cpp" />
+    <ClCompile Include="src\Simulation.cpp" />
+    <ClCompile Include="src\Sound.cpp" />
+    <ClCompile Include="src\Sprites.cpp" />
+    <ClCompile Include="src\UI\ButtonBase.cpp" />
+    <ClCompile Include="src\UI\Canvas.cpp" />
+    <ClCompile Include="src\UI\Menu.cpp" />
+    <ClCompile Include="src\UI\Text.cpp" />
+    <ClCompile Include="src\UI\UIComponent.cpp" />
+    <ClCompile Include="src\UI\UIObject.cpp" />
+    <ClCompile Include="src\UI\UISprite.cpp" />
+    <ClCompile Include="src\WeaponHandler.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{621795B1-17CD-458C-9BCE-DACC51D8B27C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PFA_DUKE</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_USE_MATH_DEFINES;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)\lib\freetype\include;$(ProjectDir)\lib\STB;$(ProjectDir)\lib\SDL2\include;$(ProjectDir)\include\UI;$(ProjectDir)\include;$(ProjectDir)\include\Core;$(ProjectDir)\include\Core\DataStructure;$(ProjectDir)\include\Core\Debugs;$(ProjectDir)\include\Core\Maths;$(ProjectDir)\include\LowRenderer;$(ProjectDir)\include\Physics;$(ProjectDir)\include\Resources;$(ProjectDir)\lib\glew\include;$(ProjectDir)\include\LowRenderer\Lights;$(ProjectDir)\include\Physics\Collision;$(ProjectDir)\include\Core\Maths\Geometry</AdditionalIncludeDirectories>
+      <AdditionalOptions>/std:c++17 %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)\lib\freetype\lib\;$(ProjectDir)\lib\glew\lib\x64;$(ProjectDir)\lib\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;glew32.lib;opengl32.lib;SDL2_mixer.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_CONSOLE;_USE_MATH_DEFINES;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;NDEBUG</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)\lib\freetype\include;$(ProjectDir)\lib\STB;$(ProjectDir)\lib\SDL2\include;$(ProjectDir)\include;$(ProjectDir)\include\Core;$(ProjectDir)\include\Core\DataStructure;$(ProjectDir)\include\Core\Debugs;$(ProjectDir)\include\Core\Maths;$(ProjectDir)\include\LowRenderer;$(ProjectDir)\include\UI;$(ProjectDir)\include\Physics;$(ProjectDir)\include\Resources;$(ProjectDir)\lib\glew\include;$(ProjectDir)\include\LowRenderer\Lights;$(ProjectDir)\include\Physics\Collision;$(ProjectDir)\include\Core\Maths\Geometry</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;glew32.lib;opengl32.lib;SDL2_mixer.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)\lib\freetype\lib\;$(ProjectDir)\lib\glew\lib\x64;$(ProjectDir)\lib\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PreBuildEvent>
+      <Command>copy $(ProjectDir)lib\DLL\*.dll $(SolutionDir)\x64\Release</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
